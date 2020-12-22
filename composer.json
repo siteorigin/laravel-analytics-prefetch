@@ -1,0 +1,32 @@
+{
+    "name": "siteorigin/laravel-analytics-prefetch",
+    "description": "A laravel package adds rel=prefetch to links based on navigation data from Analytics.",
+    "type": "package",
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^8.0",
+        "spatie/laravel-analytics": "^3.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Greg Priday",
+            "email": "greg@siteorigin.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SiteOrigin\\AnalyticsPrefetch\\": "src/"
+        }
+    },
+    "extras" : {
+        "laravel" : {
+            "providers": [
+                "SiteOrigin\\AnalyticsPrefetch\\AnalyticsPrefetchServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.5"
+    }
+}

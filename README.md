@@ -1,2 +1,3 @@
-# laravel-analytics-prefetch
-WIP: A Laravel package that uses Analytics to add prefetch tags to next visited pages.
+# Add Prefetching Based on Analytics Data
+
+A simple Laravel Middleware that uses [Spatie Analytics](https://github.com/spatie/laravel-analytics) to add `rel="prefetch"` to the pages a user is most likely to visit next.  Make sure you [install](https://github.com/spatie/laravel-analytics#installation) and [configure](https://github.com/spatie/laravel-analytics#how-to-obtain-the-credentials-to-communicate-with-google-analytics) it.
